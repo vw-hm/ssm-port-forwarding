@@ -1,0 +1,4 @@
+aws ssm start-session --target "i-037cd08969e22a59c" --document-name AWS-StartPortForwardingSession --parameters "portNumber"=["80"],"localPortNumber"=["8080"]
+
+ ssh -i Mayur_PrivateKeyPair.pem ec2-user@10.1.1.201
+ 
